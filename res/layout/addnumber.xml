@@ -1,0 +1,86 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+  <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="top|center_horizontal"
+    android:text="Add Phone Number"
+    android:textSize="22sp"/>
+
+  <TableLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="left"
+    android:orientation="vertical"
+    android:padding="10dip">
+
+    <TableRow
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+
+      <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:text="@string/addNumber.labelNumber"
+        android:id="@+id/mobileLabel"
+        android:textSize="15sp"/>
+
+      <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0dip"
+        android:layout_weight="1"
+        android:id="@+id/mobile"
+        android:inputType="phone"
+        android:maxLength="10"/>
+    </TableRow>
+
+    <TableRow
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+
+      <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:text="@string/addNumber.message"
+        android:textSize="15sp"/>
+
+      <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0dip"
+        android:layout_weight="1"
+        android:id="@+id/customMessage"
+        android:inputType="text"/>
+    </TableRow>
+  </TableLayout>
+
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="20dip">
+
+    <Button
+      android:id="@+id/backButton"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="top"
+      android:layout_weight="1"
+      android:text="@string/addNumber.backBotton"/>
+
+    <Button
+      android:id="@+id/addEntry"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="top"
+      android:layout_weight="1"
+      android:text="@string/addNumber.addButton"/>
+  </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FakeMessager</string>
+    <string name="addNumber.backBotton">Back</string>
+    <string name="addNumber.addButton">Add</string>
+    <string name="addNumber.backHome">Home</string>
+    <string name="addNumber.labelNumber">Mobile Number</string>
+    <string name="addNumber.message">Custom message</string>
+    <string name="addNumber">Add Number and Message</string>
+</resources>
